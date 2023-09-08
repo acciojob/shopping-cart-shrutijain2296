@@ -13,19 +13,19 @@
 	<label for = "price">price</label>
 	<input type = "number" id = "item-price-input">
 	<button id = "add">Add</button>
-	<table id = "listItem">
+	<table id = "listItem" role = "grid">
 		<thead>
-			<th id = "item"></th>
-			<th id = "price"></th>
+			<th id = "item" role = "columnheader"> Item</th>
+			<th id = "price" role = "columnheader"> - Price</th>
 		</thead>
 		<tbody>
 			<tr>
-				<td></td>
-				<td></td>
+				<td role = "cell"></td>
+				<td role = "cell"></td>
 			</tr>
 		</tbody>
 	</table>
-	<h3 id = "total">Grand Total: $0.00</h3>
+	<h3 id = "total" aria-live = "polite" aria-atomoc = "true">Grand Total: $0.00</h3>
     <script type="text/javascript" src="./script.js">
 </script>
 

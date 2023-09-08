@@ -2,7 +2,7 @@
 const listItem = document.getElementById("listItem");
 const item =  document.getElementById("item-name-input");
 const price =  document.getElementById("item-price-input");
-const addItem = document.getElementById("addItem")
+const addItem = document.getElementById("add")
 const total = document.getElementById("total");
 
 let grandTotal = 0.0;
